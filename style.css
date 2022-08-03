@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+body {
+  /* background-color: EAE3D2; */
+  background-image: linear-gradient(to right, rgb(28, 56, 121), rgb(96, 126, 170));
+  font-family: 'Lexend Deca', sans-serif;
+  color: black;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+h1, h2, h3 {
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.btn-blue {
+  color: EAE3D2;
+  background-color: 1C3879;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 15px;
+  margin: 10px 0 0 0;
+
+}
+
+.btn-blue:hover {
+  background-color: FFDEDE;
+  color: 1C3879;
+}
+
+.social-media-logo {
+  color: 1C3879;
+  font-size : 40px;
+  /* text-align : center; */
+}
+
+.social-media-logo:hover{
+  color:FFDEDE;
+  width: 500px;
+}
+
+.card-white {
+  margin : 50px auto;
+  border : 30px black;
+  padding : 30px;
+  width : 350px;
+  height : auto;
+  background-color : F9F5EB;
+  border-radius : 15px;
+  text-align : center;
+  box-shadow :0 10px 30px rgb(28, 56, 121);
+}
+
+.img-circle {
+  width : 150px;
+  border-radius: 100px;
+  margin : center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  /* text-align: center; */
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 450px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card-white {
+    width: 200px;
+
+  }
+}
